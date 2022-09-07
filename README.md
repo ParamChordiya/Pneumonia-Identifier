@@ -1,3 +1,3 @@
-# Plant-Disease-Classification
-Plant Disease Classification
-"# Pneumonia-Identifier" 
+# Pneumonia-Identifier
+
+# Pneumonia-Identifier
