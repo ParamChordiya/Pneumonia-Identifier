@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+tensorflow-cpu==2.9.0
+python-multipart
+pillow
+matplotlib
+numpy
+uvicorn
+gunicorn
+Flask
+Flask-Cors
+scikit-image
+=======
+tensorflow-cpu==2.9.0
+python-multipart
+pillow
+matplotlib
+numpy
+uvicorn
+gunicorn
+Flask
+Flask-Cors
+scikit-image
+>>>>>>> 6b58be80419dfc6d69b5f8ab977eefc4c082fcdb
