@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {% extends "import.html" %}
 {% block content %}
 
@@ -61,68 +61,4 @@
 
 
 </center><br><br>
-=======
-{% extends "import.html" %}
-{% block content %}
-
-<center>
-    <br>
-    <h2>Pneumonia Disease Identifier</h2><br>
-    <div>
-        <h4 style="margin-top:20px ; margin-left: 100px; margin-right: 100px;">Pneumonia is an infection that inflames
-            the air sacs in one or both lungs. The air sacs may fill
-            with fluid or pus (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty
-            breathing. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia.</h4>
-        <h4 style="margin-left: 100px; margin-right: 100px;">Pneumonia can range in seriousness from mild to
-            life-threatening. It is most serious for infants and
-            young children, people older than age 65, and people with health problems or weakened immune systems.</h4>
-        <br>
-
-
-
-    </div>
-
-    <form id="upload-file" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" class="btn btn-success" id="imageUpload" accept=".png, .jpg, .jpeg">
-    </form>
-
-
-    <div class="image-section" style="display:none;">
-        <img id="imagePreview" class="img-responsive" src="#" style="width:300px;height:300px;" /><br><br>
-        <div>
-            <button type="button" class="btn btn-info btn-lg " id="btn-predict">Predict!</button>
-        </div>
-    </div>
-
-
-
-    <div class="loader" style="display:none;"></div>
-
-    <h3 id="result">
-        <span> </span>
-    </h3>
-
-    <div>
-        <h4>Symptoms:</h3>
-        <h6 style="margin-left: 100px; margin-right: 100px;">The signs and symptoms of pneumonia vary from mild to
-            severe, depending on factors such as the type of germ causing the infection, and your age and overall
-            health. Mild signs and symptoms often are similar to those of a cold or flu, but they last longer.</h6>
-        <h6 style="margin-left: 100px; margin-right: 100px;">Signs and symptoms of pneumonia may include:</h6>
-        <li>Chest pain when you breathe or cough</li>
-        <li>Confusion or changes in mental awareness (in adults age 65 and older)
-        <li>Cough, which may produce phlegm</li>
-        <li>Fatigue</li>
-        <li>Fever, sweating and shaking chills</li>
-        <li>Lower than normal body temperature (in adults older than age 65 and people with weak immune systems)</li>
-        <li>Nausea, vomiting or diarrhea</li>
-        <li>Shortness of breath</li>
-        <br>
-
-
-
-    </div>
-
-
-</center><br><br>
->>>>>>> 6b58be80419dfc6d69b5f8ab977eefc4c082fcdb
 {% endblock %}
